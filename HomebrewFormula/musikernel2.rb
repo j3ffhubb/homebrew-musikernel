@@ -18,7 +18,7 @@ class Musikernel2 < Formula
   def install
     system "brew", "install", "numpy", "--with-python3"
     system "make", "-C", "src", "mac_osx"
-    system "make", "-C", "src", "mac_osx_install"
+    system "make", "-C", "src", "install_mac_osx"
   end
 
   test do
