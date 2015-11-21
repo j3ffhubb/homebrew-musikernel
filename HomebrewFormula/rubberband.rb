@@ -14,7 +14,7 @@ class Rubberband < Formula
   depends_on 'libsndfile'
   depends_on 'vamp-plugin-sdk' => :optional
 
-  if MacOS.version == :yosemite
+  if MacOS.version >= :yosemite
     patch :p1 do
       url "http://tuohela.net/irc/rubberband-1.8.1-yosemite.diff"
       sha1 "76ea7cac0fc0ab99b38081176375ef7c34be678f"
