@@ -1,6 +1,6 @@
 require 'formula'
 
-class MusiKernel2 < Formula
+class Musikernel2 < Formula
   homepage 'https://github.com/j3ffhubb/musikernel'
   url 'https://github.com/j3ffhubb/musikernel/archive/musikernel2.zip'
   sha1 '665a1145b98f3c05a6dee83e7b7da70879703049'
