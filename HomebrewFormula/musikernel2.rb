@@ -2,8 +2,8 @@ require 'formula'
 
 class Musikernel2 < Formula
   homepage 'https://github.com/j3ffhubb/musikernel'
-  url 'https://github.com/j3ffhubb/musikernel/archive/musikernel2-16.01.0.zip'
-  sha1 '46205ccd87d1383cd6b666e9f6bb88c5d25f033e'
+  url 'https://github.com/j3ffhubb/musikernel/archive/musikernel2-16.01.1.zip'
+  sha1 'd7d31fab8d1114d535a26382d4615357dedf7080'
 
   depends_on 'python3'
   depends_on 'liblo'
