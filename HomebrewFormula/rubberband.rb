@@ -7,7 +7,7 @@ require 'formula'
 class Rubberband < Formula
   homepage ''
   url 'http://code.breakfastquay.com/attachments/download/34/rubberband-1.8.1.tar.bz2'
-  sha1 'ae1faaef211d612db745d66d77266cf6789fd4ee'
+  sha256 'ff0c63b0b5ce41f937a8a3bc560f27918c5fe0b90c6bc1cb70829b86ada82b75'
 
   depends_on 'pkg-config'
   depends_on 'libsamplerate'
