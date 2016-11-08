@@ -18,7 +18,7 @@ class Rubberband < Formula
     patch :p1 do
       url "https://raw.githubusercontent.com/j3ffhubb/homebrew-musikernel/master/HomebrewFormula/rubberband-1.8.1-yosemite.diff"
       #url "http://tuohela.net/irc/rubberband-1.8.1-yosemite.diff"
-      sha1 "76ea7cac0fc0ab99b38081176375ef7c34be678f"
+      sha256 "b3a4facb412942ce20dfc1b27f85755e5d812ad6e7c7b0e61656fa4a6de5109e"
     end
   end
 
